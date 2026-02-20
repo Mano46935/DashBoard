@@ -138,6 +138,7 @@ function App() {
                 </tbody>
               </table>
             </div>
+            {<br></br>}
             <h3>Subject Analytics</h3>
             <div className="table-wrapper">
               <table>
@@ -165,6 +166,7 @@ function App() {
             </div>
             {role === "HOD" && (
               <>
+              {<br></br>}
                 <h3>Strongest and Weakest Subjects</h3>
                 <div className="table-wrapper">
                   <table>
